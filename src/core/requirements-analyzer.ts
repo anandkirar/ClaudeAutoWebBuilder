@@ -1,5 +1,5 @@
 import { OpenAI } from 'openai';
-import Anthropic from 'anthropic';
+import Anthropic from '@anthropic-ai/sdk';
 import { v4 as uuidv4 } from 'uuid';
 import { 
   RequirementSpec, 

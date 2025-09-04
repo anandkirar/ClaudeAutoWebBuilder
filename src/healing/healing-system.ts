@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs-extra';
 import { EventEmitter } from 'events';
 import { OpenAI } from 'openai';
-import Anthropic from 'anthropic';
+import Anthropic from '@anthropic-ai/sdk';
 import { exec } from 'child_process';
 import { promisify } from 'util';
 import simpleGit, { SimpleGit } from 'simple-git';

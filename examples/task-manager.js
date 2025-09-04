@@ -12,7 +12,7 @@ const path = require('path');
 const fs = require('fs-extra');
 
 // Import the framework
-const AutonomousWebFramework = require('../dist/index.js');
+const { AutonomousWebFramework } = require('../dist/index.js');
 
 async function createTaskManagerApp() {
   console.log('🤖 Autonomous Web Framework - Task Manager Example');
